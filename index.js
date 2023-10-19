@@ -20,7 +20,18 @@ const randomArray = [
 {Name: "Type Conversion - A 🔀 1", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.k15mq34wel3s"},
 {Name: "JS Arrays - BASIC 🥚", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.cw6davkedln8"},
 {Name: "Array [ ] methods & functions🔧", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.g4taaf74ue91"},
-{Name: "HTMLCollection -> [ Array]", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.b9shhd8js2qu"},
+{Name: "JS While & For loops 🔄", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.7yn8qdvfwclz"},
+{Name: "JS - .forEach() 🔂", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.8p73mry8dle2"},
+{Name: "Array Methods [ 🔽⏫🔀🔁] - 1.Filter Method( ) 🔍", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj rZTzrNKqiekaySIBRs/edit#heading=h.m8q2a1k2j1ug"},
+{Name: "Array Methods [ 🔽⏫🔀🔁] - 2. Map Method() 🔄", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.3kea8jgmz7e8"},
+{Name: "Array Methods [ 🔽⏫🔀🔁] - 3. Reduce Method (adder, e)", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.7wlg4itao4th"},
+{Name: "Array Methods [ 🔽⏫🔀🔁] -  4. Find method (X, ✅, X)", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.1dpgpw9ikl1m"},
+{Name: "Array Methods [ 🔽⏫🔀🔁] - 5. Sort Method(🔍❌✅ )", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.sd71uqnkavtb"},
+{Name: "Chaining Array methods ⛓", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.guov6bwlcf0s"},
+{Name: "Block scope ⛔", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.fvvu9wmz62vr"},
+{Name: "JS - Adding sound 🔊", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.yi6gfm417x33"},
+{Name: "JS - Adding time outs 🕛", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.w1vbbmj6e4ft"},
+{Name: "Connecting JS 🔌", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.fpy162vz4qh0"},
 ];
 
 
@@ -30,13 +41,14 @@ let a_tag = document.querySelector("a");
 
 
 button.addEventListener("click", () => {
-    let randomNumber = Math.floor(Math.random() * 22); 
+    let randomNumber = Math.floor(Math.random() * 33); 
     console.log(randomNumber);
     a_tag.setAttribute("href", randomArray[randomNumber].Link);
     a_tag.innerHTML = `${randomArray[randomNumber].Name}`;
 
     console.log(randomArray[randomNumber].Link);
 })
+
 
 
 
