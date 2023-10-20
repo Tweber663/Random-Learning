@@ -32,6 +32,15 @@ const randomArray = [
 {Name: "JS - Adding sound 🔊", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.yi6gfm417x33"},
 {Name: "JS - Adding time outs 🕛", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.w1vbbmj6e4ft"},
 {Name: "Connecting JS 🔌", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.fpy162vz4qh0"},
+{Name: "Modifying CSS  🎨", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.wf4zksf63ui4"},
+{Name: "Text property 📑", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.ixx8rjxyoriy"},
+{Name: "Attribute targeting (href, h1🎯)", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.8rj5v2qb5esr"},
+{Name: "Parents, Children, Siblings 👨‍👧‍👦", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.1az81qmyujmm"},
+{Name: "Event listeners 🎤", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.a0u44mgdr8y"},
+{Name: "Event listener callback🎤🙋‍♂️", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.2br8xjbjeqpp"},
+{Name: "Event Add & Remove ➕❌", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.7dpfrvk4gik1"},
+{Name: "Event Bubbling 🎈🎈", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.gmfixlkgvasy"},
+{Name: Event Pop-Up example 🟥", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.k29cpw7is0xa"},
 ];
 
 
@@ -41,7 +50,7 @@ let a_tag = document.querySelector("a");
 
 
 button.addEventListener("click", () => {
-    let randomNumber = Math.floor(Math.random() * 33); 
+    let randomNumber = Math.floor(Math.random() * 42); 
     console.log(randomNumber);
     a_tag.setAttribute("href", randomArray[randomNumber].Link);
     a_tag.innerHTML = `${randomArray[randomNumber].Name}`;
