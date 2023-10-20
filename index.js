@@ -40,7 +40,7 @@ const randomArray = [
 {Name: "Event listener callback🎤🙋‍♂️", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.2br8xjbjeqpp"},
 {Name: "Event Add & Remove ➕❌", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.7dpfrvk4gik1"},
 {Name: "Event Bubbling 🎈🎈", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.gmfixlkgvasy"},
-{Name: Event Pop-Up example 🟥", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.k29cpw7is0xa"},
+{Name: "Event Pop-Up example 🟥", Link:"https://docs.google.com/document/d/1whRL_td9_0Bb_tISPWu5Anqj-rZTzrNKqiekaySIBRs/edit#heading=h.k29cpw7is0xa"},
 ];
 
 
